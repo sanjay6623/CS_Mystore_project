@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+  <Appenders>
+    <!-- Console Appender -->
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level - %msg%n"/>
+    </Console>
+
+    <!-- File Appender -->
+    <File name="File" fileName="C:\\Users\\User\\eclipse\\MyStoreV2\\logs\\logs.log" append="true">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level - %msg%n"/>
+    </File>
+  </Appenders>
+
+  <Loggers>
+    <!-- Specific Logger -->
+    <Logger name="com.mystore.testcases.BaseClass" level="all" additivity="true">
+      <AppenderRef ref="Console"/>
+    </Logger>
+
+    <!-- Root Logger -->
+    <Root level="debug">
+      <AppenderRef ref="File"/>
+    </Root>
+  </Loggers>
+</Configuration>
