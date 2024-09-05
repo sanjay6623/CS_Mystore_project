@@ -15,3 +15,39 @@
 2024-09-05 11:27:58.755 [main] INFO  - product added into cart...
 2024-09-05 11:28:04.738 [main] INFO  - checkout page title:  Automation Exercise - Checkout
 2024-09-05 11:28:04.821 [main] INFO  - Address found wrong: 
+2024-09-05 11:37:13.497 [main] INFO  - Url opened
+2024-09-05 11:37:14.593 [main] INFO  - Click on singup/login button
+2024-09-05 11:37:14.605 [main] INFO  - Get the title of homepage: 
+2024-09-05 11:37:14.605 [main] INFO  - Enter into signup page for login
+2024-09-05 11:37:14.630 [main] INFO  - Login for registred user visible:  
+2024-09-05 11:37:14.889 [main] INFO  - Entring email id done:  
+2024-09-05 11:37:17.410 [main] INFO  - click on login for registed user:  
+2024-09-05 11:37:17.459 [main] INFO  - Verify login with correct credential is passed: 
+2024-09-05 11:37:17.459 [main] INFO  - Verifiy correct loging *****************************TC01***************** Test Case end
+2024-09-05 11:37:21.636 [main] INFO  - Url opened
+2024-09-05 11:37:23.756 [main] INFO  - Click on singup/login button
+2024-09-05 11:37:23.765 [main] INFO  - Get the title of homepage: 
+2024-09-05 11:37:23.765 [main] INFO  - Enter into signup page for login
+2024-09-05 11:37:23.788 [main] INFO  - Login for registred user visible:  
+2024-09-05 11:37:23.874 [main] INFO  - Entring email id done:  
+2024-09-05 11:37:25.214 [main] INFO  - click on login for incorrect Email user:  
+2024-09-05 11:37:25.233 [main] INFO  - Incorrect email login passed:  Your email or password is incorrect!
+2024-09-05 11:37:25.233 [main] INFO  - Verifiy  invalid loging *****************************TC01***************** Test Case end
+2024-09-05 11:39:27.276 [main] INFO  - Url opened
+2024-09-05 11:39:28.487 [main] INFO  - Click on singup/login button
+2024-09-05 11:39:28.502 [main] INFO  - Get the title of homepage: 
+2024-09-05 11:39:28.502 [main] INFO  - Enter into signup page for login
+2024-09-05 11:39:28.529 [main] INFO  - Login for registred user visible:  
+2024-09-05 11:39:28.616 [main] INFO  - Entring email id done:  
+2024-09-05 11:39:31.025 [main] INFO  - click on login for registed user:  
+2024-09-05 11:39:31.054 [main] INFO  - Verify login with correct credential is passed: 
+2024-09-05 11:39:31.054 [main] INFO  - Verifiy correct loging *****************************TC01***************** Test Case end
+2024-09-05 11:39:35.670 [main] INFO  - Url opened
+2024-09-05 11:39:37.393 [main] INFO  - Click on singup/login button
+2024-09-05 11:39:37.403 [main] INFO  - Get the title of homepage: 
+2024-09-05 11:39:37.404 [main] INFO  - Enter into signup page for login
+2024-09-05 11:39:37.423 [main] INFO  - Login for registred user visible:  
+2024-09-05 11:39:37.492 [main] INFO  - Entring email id done:  
+2024-09-05 11:39:38.770 [main] INFO  - click on login for incorrect Email user:  
+2024-09-05 11:39:38.780 [main] INFO  - Incorrect email login passed:  Your email or password is incorrect!
+2024-09-05 11:39:38.780 [main] INFO  - Verifiy  invalid loging *****************************TC01***************** Test Case end
