@@ -1,358 +1,402 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="141.331" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="139.192" tests="8" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="java.specification.version" value="21"/>
+    <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\User\.cache\selenium\chromedriver\win64\128.0.6613.119\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\User\eclipse\MyStoreV2\target\test-classes;C:\Users\User\eclipse\MyStoreV2\target\classes;C:\Users\User\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\User\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\User\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\User\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\User\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\User\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.1\selenium-java-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.1\selenium-api-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.1\selenium-chrome-driver-4.23.1.jar;C:\Users\User\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.1\selenium-chromium-driver-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.1\selenium-json-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.1\selenium-manager-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.1\selenium-devtools-v125-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.1\selenium-devtools-v126-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.1\selenium-devtools-v127-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.1\selenium-devtools-v85-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.1\selenium-edge-driver-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.1\selenium-firefox-driver-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.1\selenium-http-4.23.1.jar;C:\Users\User\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.1\selenium-ie-driver-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.1\selenium-remote-driver-4.23.1.jar;C:\Users\User\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\User\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\User\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\User\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\User\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.1\selenium-os-4.23.1.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.1\selenium-safari-driver-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.1\selenium-support-4.23.1.jar;C:\Users\User\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\User\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\User\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\User\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\User\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\User\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\User\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\User\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\User\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\User\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\User\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\User\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\User\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\User\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\User\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-core\3.0.0-beta2\log4j-core-3.0.0-beta2.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-plugins\3.0.0-beta2\log4j-plugins-3.0.0-beta2.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-api\3.0.0-beta2\log4j-api-3.0.0-beta2.jar;"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="21"/>
+    <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire16563176035993074767\surefirebooter-20240903162605056_3.jar C:\Users\User\AppData\Local\Temp\surefire16563176035993074767 2024-09-03T16-26-04_943-jvmRun1 surefire-20240903162605056_1tmp surefire_0-20240903162605056_2tmp"/>
+    <property name="sun.boot.library.path" value="C:\Users\User\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire2618844237355145947\surefirebooter-20240905120005785_3.jar C:\Users\User\AppData\Local\Temp\surefire2618844237355145947 2024-09-05T12-00-05_670-jvmRun1 surefire-20240905120005785_1tmp surefire_0-20240905120005785_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\User\eclipse\MyStoreV2\target\test-classes;C:\Users\User\eclipse\MyStoreV2\target\classes;C:\Users\User\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\User\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\User\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\User\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\User\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\User\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\User\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\User\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\User\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.1\selenium-java-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.1\selenium-api-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.1\selenium-chrome-driver-4.23.1.jar;C:\Users\User\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.1\selenium-chromium-driver-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.1\selenium-json-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.1\selenium-manager-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.1\selenium-devtools-v125-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.1\selenium-devtools-v126-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.1\selenium-devtools-v127-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.1\selenium-devtools-v85-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.1\selenium-edge-driver-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.1\selenium-firefox-driver-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.1\selenium-http-4.23.1.jar;C:\Users\User\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.1\selenium-ie-driver-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.1\selenium-remote-driver-4.23.1.jar;C:\Users\User\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\User\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\User\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\User\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\User\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\User\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\User\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\User\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.1\selenium-os-4.23.1.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.1\selenium-safari-driver-4.23.1.jar;C:\Users\User\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.1\selenium-support-4.23.1.jar;C:\Users\User\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\User\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\User\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\User\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\User\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\User\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\User\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\User\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\User\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\User\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\User\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\User\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\User\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\User\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\User\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\User\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\User\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-core\3.0.0-beta2\log4j-core-3.0.0-beta2.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-plugins\3.0.0-beta2\log4j-plugins-3.0.0-beta2.jar;C:\Users\User\.m2\repository\org\apache\logging\log4j\log4j-api\3.0.0-beta2\log4j-api-3.0.0-beta2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\User"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2024-04-16"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Users\User\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre"/>
     <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
     <property name="basedir" value="C:\Users\User\eclipse\MyStoreV2"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire16563176035993074767\surefirebooter-20240903162605056_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire2618844237355145947\surefirebooter-20240905120005785_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="21.0.3+7-LTS-152"/>
+    <property name="java.runtime.version" value="17.0.10+7"/>
     <property name="user.name" value="User"/>
-    <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.10+7"/>
     <property name="localRepository" value="C:\Users\User\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
-    <property name="java.version" value="21.0.3"/>
+    <property name="java.version" value="17.0.10"/>
     <property name="user.dir" value="C:\Users\User\eclipse\MyStoreV2"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.9.6/bin;C:\Program Files\Java\jdk-21/bin;C:\Program Files\Java\jdk-21/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\User\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin;c:\users\user\appdata\local\programs\python\python312\lib\site-packages;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\nodejs\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Users\User\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python312\;C:\Users\User\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Java\jdk-21\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\apache-maven-3.9.6;C:\Users\User\Downloads\allure-2.29.0\allure-2.29.0\bin;C:\Users\User\AppData\Roaming\npm;."/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="stderr.encoding" value="Cp1252"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="21.0.3+7-LTS-152"/>
+    <property name="java.library.path" value="C:\Users\User\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/User/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin/server;C:/Users/User/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\User\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin;c:\users\user\appdata\local\programs\python\python312\lib\site-packages;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\nodejs\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Users\User\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python312\;C:\Users\User\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Java\jdk-21\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\apache-maven-3.9.6;C:\Users\User\Downloads\allure-2.29.0\allure-2.29.0\bin;C:\Users\User\AppData\Roaming\npm;C:\Users\User\eclipse\java-2024-03\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.10+7"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="65.0"/>
+    <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Singnup_login" classname="com.mystore.testcases.TC01_LoginPage" time="12.556">
+  <testcase name="Singnup_login" classname="com.mystore.testcases.TC01_LoginPage" time="12.041">
+    <failure message="element click intercepted: Element &lt;button type=&quot;submit&quot; data-qa=&quot;create-account&quot; class=&quot;btn btn-default&quot;&gt;...&lt;/button&gt; is not clickable at point (359, 638). Other element would receive the click: &lt;div id=&quot;aswift_1_host&quot; style=&quot;border: none !important; height: 90px !important; width: 100% !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=128.0.6613.119)&#10;Build info: version: &apos;4.23.1&apos;, revision: &apos;656257d8e9&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [a24317b28f4b60d502b5943f5a53ae78, clickElement {id=f.890C06538E355C7593BC93748552081D.d.9188869B5EC8DBEB26935D1B943147B2.e.119}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52836/devtoo..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (a24317b28f4b60d502b5943f5a53ae78)] -&gt; xpath: //button[normalize-space()=&apos;Create Account&apos;]]&#10;Session ID: a24317b28f4b60d502b5943f5a53ae78" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="submit" data-qa="create-account" class="btn btn-default">...</button> is not clickable at point (359, 638). Other element would receive the click: <div id="aswift_1_host" style="border: none !important; height: 90px !important; width: 100% !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;">...</div>
+  (Session info: chrome=128.0.6613.119)
+Build info: version: '4.23.1', revision: '656257d8e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a24317b28f4b60d502b5943f5a53ae78, clickElement {id=f.890C06538E355C7593BC93748552081D.d.9188869B5EC8DBEB26935D1B943147B2.e.119}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52836}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52836/devtoo..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a24317b28f4b60d502b5943f5a53ae78)] -> xpath: //button[normalize-space()='Create Account']]
+Session ID: a24317b28f4b60d502b5943f5a53ae78
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy45.click(Unknown Source)
+	at com.mystore.pageobject.LoginAccountCreation.clickSubmit(LoginAccountCreation.java:104)
+	at com.mystore.testcases.TC01_LoginPage.Singnup_login(TC01_LoginPage.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
     <system-out><![CDATA[On Start Method started:   Test
-2024-09-03 16:26:13.704 INFO  - Url opened
+2024-09-05 12:00:15.871 INFO  - Url opened
 OnTestStart method started:   Singnup_login
-2024-09-03 16:26:15.014 INFO  - Click on singup/login button
+2024-09-05 12:00:19.855 INFO  - Click on singup/login button
 Loging page title:  Automation Exercise - Signup / Login
-2024-09-03 16:26:15.019 INFO  - Get the title of homepage: 
-2024-09-03 16:26:17.105 INFO  - Random email generator started:  
-2024-09-03 16:26:17.105 INFO  - Random email given to user filed:  
-2024-09-03 16:26:18.655 INFO  - Account information enttring started: 
-2024-09-03 16:26:18.880 INFO  - Date of birth entring started: 
-2024-09-03 16:26:23.574 INFO  - submisstion button clicked: 
-Automation Exercise - Account Created
-2024-09-03 16:26:23.588 INFO  - Account creation done
-2024-09-03 16:26:26.279 INFO  - Singup loing *****************************TC01***************** Test Case end
-On Test Suucess Mothod started:   Singnup_login
+2024-09-05 12:00:19.862 INFO  - Get the title of homepage: 
+2024-09-05 12:00:21.954 INFO  - Random email generator started:  
+2024-09-05 12:00:21.966 INFO  - Random email given to user filed:  
+2024-09-05 12:00:23.513 INFO  - Account information enttring started: 
+2024-09-05 12:00:23.630 INFO  - Date of birth entring started: 
+On Test Failure Method started:   Singnup_login
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Sept 03, 2024 4:26:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Sep 05, 2024 12:00:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 128
 ]]></system-err>
   </testcase>
-  <testcase name="verifyCorrectLogin" classname="com.mystore.testcases.TC0101_LoginPage_ValidLogin" time="4.698">
-    <system-out><![CDATA[2024-09-03 16:26:31.308 INFO  - Url opened
+  <testcase name="verifyCorrectLogin" classname="com.mystore.testcases.TC0101_LoginPage_ValidLogin" time="5.061">
+    <system-out><![CDATA[2024-09-05 12:00:31.958 INFO  - Url opened
 OnTestStart method started:   verifyCorrectLogin
-2024-09-03 16:26:33.081 INFO  - Click on singup/login button
+2024-09-05 12:00:34.315 INFO  - Click on singup/login button
 Loging page title:  Automation Exercise - Signup / Login
-2024-09-03 16:26:33.088 INFO  - Get the title of homepage: 
-2024-09-03 16:26:33.088 INFO  - Enter into signup page for login
+2024-09-05 12:00:34.323 INFO  - Get the title of homepage: 
+2024-09-05 12:00:34.324 INFO  - Enter into signup page for login
 Loging visible for user to enter email and password:  Login to your account
-2024-09-03 16:26:33.118 INFO  - Login for registred user visible:  
-2024-09-03 16:26:33.219 INFO  - Entring email id done:  
-2024-09-03 16:26:35.994 INFO  - click on login for registed user:  
-2024-09-03 16:26:36.010 INFO  - Verify login with correct credential is passed: 
-2024-09-03 16:26:36.010 INFO  - Verifiy correct loging *****************************TC01***************** Test Case end
+2024-09-05 12:00:34.353 INFO  - Login for registred user visible:  
+2024-09-05 12:00:34.480 INFO  - Entring email id done:  
+2024-09-05 12:00:36.999 INFO  - click on login for registed user:  
+2024-09-05 12:00:37.023 INFO  - Verify login with correct credential is passed: 
+2024-09-05 12:00:37.024 INFO  - Verifiy correct loging *****************************TC01***************** Test Case end
 On Test Suucess Mothod started:   verifyCorrectLogin
 ]]></system-out>
-    <system-err><![CDATA[Sept 03, 2024 4:26:26 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Sep 05, 2024 12:00:28 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1467)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1412)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1412)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:979)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:934)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:934)
 
-Sept 03, 2024 4:26:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Sep 05, 2024 12:00:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 128
 ]]></system-err>
   </testcase>
-  <testcase name="verifyInvalidEmailLogin" classname="com.mystore.testcases.TC0102_LoginPage_InvalidLogin" time="3.312">
-    <system-out><![CDATA[2024-09-03 16:26:41.177 INFO  - Url opened
+  <testcase name="verifyInvalidEmailLogin" classname="com.mystore.testcases.TC0102_LoginPage_InvalidLogin" time="4.029">
+    <system-out><![CDATA[2024-09-05 12:00:42.161 INFO  - Url opened
 OnTestStart method started:   verifyInvalidEmailLogin
-2024-09-03 16:26:43.002 INFO  - Click on singup/login button
+2024-09-05 12:00:44.728 INFO  - Click on singup/login button
 Loging page title:  Automation Exercise - Signup / Login
-2024-09-03 16:26:43.006 INFO  - Get the title of homepage: 
-2024-09-03 16:26:43.007 INFO  - Enter into signup page for login
+2024-09-05 12:00:44.733 INFO  - Get the title of homepage: 
+2024-09-05 12:00:44.734 INFO  - Enter into signup page for login
 Loging visible for user to enter email and password:  Login to your account
-2024-09-03 16:26:43.028 INFO  - Login for registred user visible:  
-2024-09-03 16:26:43.099 INFO  - Entring email id done:  
-2024-09-03 16:26:44.472 INFO  - click on login for incorrect Email user:  
+2024-09-05 12:00:44.754 INFO  - Login for registred user visible:  
+2024-09-05 12:00:44.822 INFO  - Entring email id done:  
+2024-09-05 12:00:46.174 INFO  - click on login for incorrect Email user:  
 Your email or password is incorrect!
-2024-09-03 16:26:44.490 INFO  - Incorrect email login passed:  Your email or password is incorrect!
-2024-09-03 16:26:44.491 INFO  - Verifiy  invalid loging *****************************TC01***************** Test Case end
+2024-09-05 12:00:46.191 INFO  - Incorrect email login passed:  Your email or password is incorrect!
+2024-09-05 12:00:46.192 INFO  - Verifiy  invalid loging *****************************TC01***************** Test Case end
 On Test Suucess Mothod started:   verifyInvalidEmailLogin
 ]]></system-out>
-    <system-err><![CDATA[Sept 03, 2024 4:26:36 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Sep 05, 2024 12:00:37 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1467)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1412)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1412)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:979)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:934)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:934)
 
-Sept 03, 2024 4:26:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Sep 05, 2024 12:00:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 128
 ]]></system-err>
   </testcase>
-  <testcase name="verifyCorrectLogin[sanjay663@gmail.com, sanjay, sanjay kumar](1)" classname="com.mystore.testcases.TC02_LoginPage_DataDriven" time="20.807">
-    <system-out><![CDATA[2024-09-03 16:26:49.121 INFO  - Url opened
+  <testcase name="verifyCorrectLogin[sanjay663@gmail.com, sanjay, sanjay kumar](1)" classname="com.mystore.testcases.TC02_LoginPage_DataDriven" time="5.631">
+    <system-out><![CDATA[2024-09-05 12:00:50.329 INFO  - Url opened
 OnTestStart method started:   verifyCorrectLogin
-2024-09-03 16:26:52.680 INFO  - Click on singup/login button
+2024-09-05 12:00:52.733 INFO  - Click on singup/login button
 Loging page title:  Automation Exercise - Signup / Login
-2024-09-03 16:26:52.680 INFO  - Get the title of homepage: 
-2024-09-03 16:26:52.680 INFO  - Enter into signup page for login
+2024-09-05 12:00:52.739 INFO  - Get the title of homepage: 
+2024-09-05 12:00:52.740 INFO  - Enter into signup page for login
 Loging visible for user to enter email and password:  Login to your account
-2024-09-03 16:26:52.711 INFO  - Login for registred user visible:  
-2024-09-03 16:26:52.805 INFO  - Entring email id done:  
-2024-09-03 16:27:07.690 INFO  - click on login for registed user:  
+2024-09-05 12:00:52.759 INFO  - Login for registred user visible:  
+2024-09-05 12:00:52.833 INFO  - Entring email id done:  
+2024-09-05 12:00:55.043 INFO  - click on login for registed user:  
 sanjay kumar
-2024-09-03 16:27:07.731 INFO  - User Registration name     sanjay kumar
-2024-09-03 16:27:07.743 INFO  - Verify login with correct credential is passed: 
-2024-09-03 16:27:10.727 INFO  - User has been logout:   
+2024-09-05 12:00:55.092 INFO  - User Registration name     sanjay kumar
+2024-09-05 12:00:55.116 INFO  - Verify login with correct credential is passed: 
+2024-09-05 12:00:56.662 INFO  - User has been logout:   
 Loging visible for user to enter email and password:  Login to your account
-2024-09-03 16:27:10.747 INFO  - Correct credintial login data driver *****************************TC02***************** Test Case end
+2024-09-05 12:00:56.676 INFO  - Correct credintial login data driver *****************************TC02***************** Test Case end
 On Test Suucess Mothod started:   verifyCorrectLogin
 ]]></system-out>
-    <system-err><![CDATA[Sept 03, 2024 4:26:44 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1467)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1412)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1412)
-
-Sept 03, 2024 4:26:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sep 05, 2024 12:00:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 128
 ]]></system-err>
   </testcase>
-  <testcase name="verifyCorrectLogin[sanjay664@gmail.com, sanjay, sanjay kumar](2)" classname="com.mystore.testcases.TC02_LoginPage_DataDriven" time="10.183">
+  <testcase name="verifyCorrectLogin[sanjay664@gmail.com, sanjay, sanjay kumar](2)" classname="com.mystore.testcases.TC02_LoginPage_DataDriven" time="4.862">
     <system-out><![CDATA[OnTestStart method started:   verifyCorrectLogin
-2024-09-03 16:27:12.619 INFO  - Click on singup/login button
+2024-09-05 12:00:58.026 INFO  - Click on singup/login button
 Loging page title:  Automation Exercise - Signup / Login
-2024-09-03 16:27:12.623 INFO  - Get the title of homepage: 
-2024-09-03 16:27:12.623 INFO  - Enter into signup page for login
+2024-09-05 12:00:58.029 INFO  - Get the title of homepage: 
+2024-09-05 12:00:58.030 INFO  - Enter into signup page for login
 Loging visible for user to enter email and password:  Login to your account
-2024-09-03 16:27:12.638 INFO  - Login for registred user visible:  
-2024-09-03 16:27:12.703 INFO  - Entring email id done:  
-2024-09-03 16:27:19.176 INFO  - click on login for registed user:  
+2024-09-05 12:00:58.043 INFO  - Login for registred user visible:  
+2024-09-05 12:00:58.106 INFO  - Entring email id done:  
+2024-09-05 12:00:59.995 INFO  - click on login for registed user:  
 sanjay kumar
-2024-09-03 16:27:19.210 INFO  - User Registration name     sanjay kumar
-2024-09-03 16:27:19.210 INFO  - Verify login with correct credential is passed: 
-2024-09-03 16:27:20.912 INFO  - User has been logout:   
+2024-09-05 12:01:00.031 INFO  - User Registration name     sanjay kumar
+2024-09-05 12:01:00.042 INFO  - Verify login with correct credential is passed: 
+2024-09-05 12:01:01.525 INFO  - User has been logout:   
 Loging visible for user to enter email and password:  Login to your account
-2024-09-03 16:27:20.931 INFO  - Correct credintial login data driver *****************************TC02***************** Test Case end
+2024-09-05 12:01:01.539 INFO  - Correct credintial login data driver *****************************TC02***************** Test Case end
 On Test Suucess Mothod started:   verifyCorrectLogin
 ]]></system-out>
   </testcase>
-  <testcase name="productSearchPage" classname="com.mystore.testcases.TC03_ProductPage" time="12.606">
-    <system-out><![CDATA[2024-09-03 16:27:24.872 INFO  - Url opened
+  <testcase name="productSearchPage" classname="com.mystore.testcases.TC03_ProductPage" time="9.642">
+    <system-out><![CDATA[2024-09-05 12:01:06.626 INFO  - Url opened
 OnTestStart method started:   productSearchPage
-2024-09-03 16:27:26.647 INFO  - Click on singup/login button
+2024-09-05 12:01:08.998 INFO  - Click on singup/login button
 Loging page title:  Automation Exercise - Signup / Login
-2024-09-03 16:27:26.652 INFO  - Get the title of homepage: 
-2024-09-03 16:27:26.652 INFO  - Enter into signup page for login
+2024-09-05 12:01:09.003 INFO  - Get the title of homepage: 
+2024-09-05 12:01:09.003 INFO  - Enter into signup page for login
 Loging visible for user to enter email and password:  Login to your account
-2024-09-03 16:27:26.673 INFO  - Login for registred user visible:  
-2024-09-03 16:27:26.749 INFO  - Entring email id done:  
-2024-09-03 16:27:30.145 INFO  - click on login for registed user:  
+2024-09-05 12:01:09.024 INFO  - Login for registred user visible:  
+2024-09-05 12:01:09.101 INFO  - Entring email id done:  
+2024-09-05 12:01:11.179 INFO  - click on login for registed user:  
 sanjay kumar
-2024-09-03 16:27:30.176 INFO  - User Registration name     sanjay kumar
-2024-09-03 16:27:30.177 INFO  - Verify login with correct credential is passed: 
-2024-09-03 16:27:32.890 INFO  - Click on Product 
-2024-09-03 16:27:32.892 INFO  - Entering into product search page: 
-2024-09-03 16:27:32.974 INFO  - click on search product and enter TShirt
-2024-09-03 16:27:35.631 INFO  - Enter into serch result of Tshirt:  
-2024-09-03 16:27:35.641 INFO  - Java Script entring to scroll page to locate element:   
+2024-09-05 12:01:11.208 INFO  - User Registration name     sanjay kumar
+2024-09-05 12:01:11.219 INFO  - Verify login with correct credential is passed: 
+2024-09-05 12:01:12.807 INFO  - Click on Product 
+2024-09-05 12:01:12.809 INFO  - Entering into product search page: 
+2024-09-05 12:01:12.936 INFO  - click on search product and enter TShirt
+2024-09-05 12:01:14.477 INFO  - Enter into serch result of Tshirt:  
+2024-09-05 12:01:14.489 INFO  - Java Script entring to scroll page to locate element:   
 Search Text:  Tshirt
-2024-09-03 16:27:35.683 INFO  - Comparing result and checking for correct product: 
+2024-09-05 12:01:14.564 INFO  - Comparing result and checking for correct product: 
 Search Result text:  Tshirt
-2024-09-03 16:27:37.475 INFO  - User has been logout sucessfully:   
+2024-09-05 12:01:16.255 INFO  - User has been logout sucessfully:   
 Login to your account
 Loging visible for user to enter email and password:  Login to your account
-2024-09-03 16:27:37.479 INFO  - Product Search page *****************************TC03***************** Test Case end
+2024-09-05 12:01:16.268 INFO  - Product Search page *****************************TC03***************** Test Case end
 On Test Suucess Mothod started:   productSearchPage
 ]]></system-out>
-    <system-err><![CDATA[Sept 03, 2024 4:27:21 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Sep 05, 2024 12:01:01 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1467)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1412)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1412)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:979)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:934)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:934)
 
-Sept 03, 2024 4:27:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Sep 05, 2024 12:01:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 128
 ]]></system-err>
   </testcase>
-  <testcase name="productAddToCartAndPayment" classname="com.mystore.testcases.TC04_AddProductCart" time="26.132">
-    <system-out><![CDATA[2024-09-03 16:27:43.624 INFO  - Url opened
+  <testcase name="productAddToCartAndPayment" classname="com.mystore.testcases.TC04_AddProductCart" time="24.749">
+    <system-out><![CDATA[2024-09-05 12:01:41.988 INFO  - Url opened
 OnTestStart method started:   productAddToCartAndPayment
-2024-09-03 16:27:45.103 INFO  - Click on singup/login button
+2024-09-05 12:01:43.799 INFO  - Click on singup/login button
 Loging page title:  Automation Exercise - Signup / Login
-2024-09-03 16:27:45.107 INFO  - Get the title of homepage: 
-2024-09-03 16:27:45.107 INFO  - Enter into signup page for login
+2024-09-05 12:01:43.805 INFO  - Get the title of homepage: 
+2024-09-05 12:01:43.806 INFO  - Enter into signup page for login
 Loging visible for user to enter email and password:  Login to your account
-2024-09-03 16:27:45.129 INFO  - Login for registred user visible:  
-2024-09-03 16:27:45.202 INFO  - Entring email id done:  
-2024-09-03 16:27:47.502 INFO  - click on login for registed user:  
-2024-09-03 16:27:49.221 INFO  - Click on Product 
-2024-09-03 16:27:49.221 INFO  - Entering into product search page: 
-2024-09-03 16:27:49.432 INFO  - click on search product and enter TShirt
-2024-09-03 16:27:50.884 INFO  - Enter into serch result of Tshirt:  
-2024-09-03 16:27:50.888 INFO  - Java Script entring to scroll page to locate element:   
-2024-09-03 16:27:53.487 INFO  - Enter into View product details:   
-2024-09-03 16:27:53.495 INFO  - product detail page title: Automation Exercise - Product Details
-2024-09-03 16:27:53.756 INFO  - product added into cart...
-2024-09-03 16:27:59.699 INFO  - checkout page title:  Automation Exercise - Checkout
-2024-09-03 16:28:06.263 INFO  - Payment done Text confirmation:  Congratulations! Your order has been confirmed!
-2024-09-03 16:28:07.904 INFO  - Payment Done:  
-2024-09-03 16:28:09.756 INFO  - User Logout and lend to Loging page again:  
-2024-09-03 16:28:09.757 INFO  - After payment loging visible:  
-2024-09-03 16:28:09.757 INFO  - Add to card product and Payment *****************************TC04***************** Test Case end
+2024-09-05 12:01:43.824 INFO  - Login for registred user visible:  
+2024-09-05 12:01:43.896 INFO  - Entring email id done:  
+2024-09-05 12:01:45.944 INFO  - click on login for registed user:  
+2024-09-05 12:01:47.673 INFO  - Click on Product 
+2024-09-05 12:01:47.673 INFO  - Entering into product search page: 
+2024-09-05 12:01:47.759 INFO  - click on search product and enter TShirt
+2024-09-05 12:01:49.948 INFO  - Enter into serch result of Tshirt:  
+2024-09-05 12:01:49.955 INFO  - Java Script entring to scroll page to locate element:   
+2024-09-05 12:01:51.727 INFO  - Enter into View product details:   
+2024-09-05 12:01:51.747 INFO  - product detail page title: Automation Exercise - Product Details
+2024-09-05 12:01:51.963 INFO  - product added into cart...
+2024-09-05 12:01:57.687 INFO  - checkout page title:  Automation Exercise - Checkout
+[YOUR DELIVERY ADDRESS, Mr. Sanjay kumar, Jaina, Okhla phase 1, , Delhi Delhi 110020, India, 8800898856]
+2024-09-05 12:01:57.752 INFO  - Address confirmation done:  
+2024-09-05 12:02:03.753 INFO  - Payment done Text confirmation:  Congratulations! Your order has been confirmed!
+2024-09-05 12:02:05.145 INFO  - Payment Done:  
+2024-09-05 12:02:06.738 INFO  - User Logout and lend to Loging page again:  
+2024-09-05 12:02:06.739 INFO  - After payment loging visible:  
+2024-09-05 12:02:06.739 INFO  - Add to card product and Payment *****************************TC04***************** Test Case end
 On Test Suucess Mothod started:   productAddToCartAndPayment
 ]]></system-out>
-    <system-err><![CDATA[Sept 03, 2024 4:27:37 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Sep 05, 2024 12:01:16 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1467)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1412)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1412)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:979)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:934)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:934)
 
-Sept 03, 2024 4:27:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Sep 05, 2024 12:01:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 128
 ]]></system-err>
   </testcase>
-  <testcase name="addProductWithoutLogin" classname="com.mystore.testcases.TC05_AddProductNoLogin" time="13.258">
-    <system-out><![CDATA[2024-09-03 16:28:14.642 INFO  - Url opened
+  <testcase name="addProductWithoutLogin" classname="com.mystore.testcases.TC05_AddProductNoLogin" time="14.583">
+    <system-out><![CDATA[2024-09-05 12:02:12.003 INFO  - Url opened
 OnTestStart method started:   addProductWithoutLogin
-2024-09-03 16:28:17.655 INFO  - Click on Product 
-2024-09-03 16:28:17.655 INFO  - Entering into product search page: 
-2024-09-03 16:28:17.753 INFO  - click on search product and enter TShirt
-2024-09-03 16:28:19.163 INFO  - Enter into serch result of Tshirt:  
-2024-09-03 16:28:21.204 INFO  - Java Script entring to scroll page to locate element:   
-2024-09-03 16:28:27.899 INFO  - Checkout Error message Register / Login account to proceed on checkout.
+2024-09-05 12:02:16.024 INFO  - Click on Product 
+2024-09-05 12:02:16.024 INFO  - Entering into product search page: 
+2024-09-05 12:02:16.113 INFO  - click on search product and enter TShirt
+2024-09-05 12:02:18.299 INFO  - Enter into serch result of Tshirt:  
+2024-09-05 12:02:20.326 INFO  - Java Script entring to scroll page to locate element:   
+2024-09-05 12:02:26.587 INFO  - Checkout Error message Register / Login account to proceed on checkout.
 On Test Suucess Mothod started:   addProductWithoutLogin
 ]]></system-out>
-    <system-err><![CDATA[Sept 03, 2024 4:28:09 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+    <system-err><![CDATA[Sep 05, 2024 12:02:06 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
 WARNING: Connection reset
 java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
 	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1467)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1412)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1412)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:979)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:934)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:934)
 
-Sept 03, 2024 4:28:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Sep 05, 2024 12:02:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 128
 ]]></system-err>
   </testcase>

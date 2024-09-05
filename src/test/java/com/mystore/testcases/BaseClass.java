@@ -32,7 +32,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static Logger logger;
 
-	@BeforeClass(groups="SmokeTest")
+	@BeforeMethod(groups="SmokeTest")
 	public void setup() {
 
 		if(browser.equals("chrome")) {
@@ -96,7 +96,7 @@ public class BaseClass {
 
 
 	}
-	@AfterClass(groups="SmokeTest")
+	@AfterMethod(groups="SmokeTest")
 	public void tearDown() {
 
 		driver.close();
