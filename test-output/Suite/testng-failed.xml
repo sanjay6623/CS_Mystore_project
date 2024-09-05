@@ -4,16 +4,18 @@
   <listeners>
     <listener class-name="com.mystore.utilities.Extentlistener"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="SmokeTest(failed)">
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.mystore.testcases.TC01_LoginPage">
+      <class name="com.mystore.testcases.TC0101_LoginPage_ValidLogin">
         <methods>
-          <include name="Singnup_login"/>
-          <include name="tearDown"/>
-          <include name="verifyInvalidEmailLogin"/>
-          <include name="setup"/>
+          <include name="verifyCorrectLogin"/>
         </methods>
-      </class> <!-- com.mystore.testcases.TC01_LoginPage -->
+      </class> <!-- com.mystore.testcases.TC0101_LoginPage_ValidLogin -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- SmokeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,6 +1,8 @@
 package com.mystore.testcases;
 
 import java.io.IOException;
+import java.util.List;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -72,6 +74,19 @@ public class TC04_AddProductCart extends BaseClass {
 		CheckoutPage checkout=new CheckoutPage(driver);
 		
 		logger.info("checkout page title:  " + checkout.checkoutPageTitle());
+		
+		List<String> value=checkout.confirmAddress();
+		System.out.println(value);
+		if(value.contains("Jaina")) {
+			logger.info("Address confirmation done:  ");
+			Assert.assertTrue(true);
+		}
+		else {
+			
+			logger.info("Address found wrong: ");
+			captureScreenShot(driver,"Addressconfirmtion failed");
+			Assert.assertTrue(false);
+		}
 		
 		
 		Thread.sleep(2000);

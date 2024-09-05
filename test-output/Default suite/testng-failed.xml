@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mystore.testcases.TC0102_LoginPage_InvalidLogin">
+      <class name="com.mystore.testcases.TC04_AddProductCart">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="verifyInvalidEmailLogin"/>
+          <include name="productAddToCartAndPayment"/>
         </methods>
-      </class> <!-- com.mystore.testcases.TC0102_LoginPage_InvalidLogin -->
+      </class> <!-- com.mystore.testcases.TC04_AddProductCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

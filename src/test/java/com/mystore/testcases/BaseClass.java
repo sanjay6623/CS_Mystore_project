@@ -32,39 +32,56 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static Logger logger;
 
-	@BeforeClass
+	@BeforeClass(groups="SmokeTest")
 	public void setup() {
 
-
-
-		switch(browser.toLowerCase()) {
-
-		case "chrome":
-			WebDriverManager.chromedriver().setup();
+		if(browser.equals("chrome")) {
+			WebDriverManager.chromedriver().setup(); 
 			driver=new ChromeDriver();
-			break;
-		case "firefox":
-
-			WebDriverManager.firefoxdriver().setup();
-			FirefoxOptions options = new FirefoxOptions();
-	        options.setAcceptInsecureCerts(true);
-			driver=new FirefoxDriver(options);
-			break;
+		
 			
-		case "edge":
-
-			WebDriverManager.edgedriver().setup();
-			driver=new EdgeDriver();
-			break;
-		default:
-
-			driver=null;
-			break;
-
-
 		}
+		else if(browser.equals("firefox")){
+			WebDriverManager.firefoxdriver().setup(); 
+			driver = new FirefoxDriver();
+		
+			
+		}
+		else if(browser.equals("edge")){
+			WebDriverManager.edgedriver().setup();			
+			driver = new EdgeDriver();
+			
+			
+		}
+		else {
+			
+			driver=null;
+			throw new RuntimeException("Browser not given or null:  ");
+			
+		}
+		
+
+		/*
+		 * switch(browser.toLowerCase()) {
+		 * 
+		 * case "chrome": WebDriverManager.chromedriver().setup(); driver=new
+		 * ChromeDriver(); break; case "firefox":
+		 * 
+		 * WebDriverManager.firefoxdriver().setup(); FirefoxOptions options = new
+		 * FirefoxOptions(); options.setAcceptInsecureCerts(true); driver=new
+		 * FirefoxDriver(options); break;
+		 * 
+		 * case "edge":
+		 * 
+		 * WebDriverManager.edgedriver().setup(); driver=new EdgeDriver(); break;
+		 * default:
+		 * 
+		 * driver=null; break;
+		 */
+
+		
 		// implicit wait for 10 seconds.
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
 		// for logging log4j2
 		logger=LogManager.getLogger(BaseClass.class);
@@ -79,7 +96,7 @@ public class BaseClass {
 
 
 	}
-	@AfterClass(enabled=true)
+	@AfterClass(groups="SmokeTest")
 	public void tearDown() {
 
 		driver.close();
