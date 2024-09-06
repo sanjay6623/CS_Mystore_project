@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.mystore.testcases.TC03_ProductPage">
+      <class name="com.mystore.testcases.TC01_LoginPage">
         <methods>
+          <include name="Singnup_login"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="productSearchPage"/>
         </methods>
-      </class> <!-- com.mystore.testcases.TC03_ProductPage -->
+      </class> <!-- com.mystore.testcases.TC01_LoginPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [AutomationTextExcercise] -->

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-AutomationTextExcercise" class="navigator-link">
-              <span class="suite-name border-passed">AutomationTextExcercise</span>
+              <span class="suite-name border-failed">AutomationTextExcercise</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AutomationTextExcercise" class="hide-methods failed suite-AutomationTextExcercise"> (hide)</a> <!-- hide-methods failed suite-AutomationTextExcercise -->
+                      <a href="#" panel-name="suite-AutomationTextExcercise" class="show-methods failed suite-AutomationTextExcercise"> (show)</a> <!-- show-methods failed suite-AutomationTextExcercise -->
+                    </span>
+                    <div class="method-list-content failed suite-AutomationTextExcercise">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTextExcercise" title="com.mystore.testcases.TC01_LoginPage" class="method navigator-link" hash-for-method="Singnup_login">Singnup_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AutomationTextExcercise -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -113,12 +127,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-AutomationTextExcercise" title="com.mystore.testcases.TC01_LoginPage" class="method navigator-link" hash-for-method="Singnup_login">Singnup_login</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-AutomationTextExcercise" title="com.mystore.testcases.TC05_AddProductNoLogin" class="method navigator-link" hash-for-method="addProductWithoutLogin">addProductWithoutLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-AutomationTextExcercise" title="com.mystore.testcases.TC05_AddProductNoLogin" class="method navigator-link" hash-for-method="addProductWithoutLogin">addProductWithoutLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-AutomationTextExcercise" title="com.mystore.testcases.TC08_Contact_Us" class="method navigator-link" hash-for-method="contactPage">contactPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,12 +152,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-AutomationTextExcercise" title="com.mystore.testcases.TC02_LoginPage_DataDriven" class="method navigator-link" hash-for-method="verifyCorrectLogin(sanjay664@gmail.com, sanjay, sanjay kumar)">verifyCorrectLogin(sanjay664@gmail.com, sanjay, sanjay kumar)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-AutomationTextExcercise" title="com.mystore.testcases.TC02_LoginPage_DataDriven" class="method navigator-link" hash-for-method="verifyCorrectLogin(sanjay663@gmail.com, sanjay, sanjay kumar)">verifyCorrectLogin(sanjay663@gmail.com, sanjay, sanjay kumar)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-AutomationTextExcercise" title="com.mystore.testcases.TC02_LoginPage_DataDriven" class="method navigator-link" hash-for-method="verifyCorrectLogin(sanjay663@gmail.com, sanjay, sanjay kumar)">verifyCorrectLogin(sanjay663@gmail.com, sanjay, sanjay kumar)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-AutomationTextExcercise" title="com.mystore.testcases.TC02_LoginPage_DataDriven" class="method navigator-link" hash-for-method="verifyCorrectLogin(sanjay664@gmail.com, sanjay, sanjay kumar)">verifyCorrectLogin(sanjay664@gmail.com, sanjay, sanjay kumar)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -163,6 +177,46 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-AutomationTextExcercise" class="panel AutomationTextExcercise">
+          <div class="suite-AutomationTextExcercise-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.mystore.testcases.TC01_LoginPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Singnup_login">
+                  </a> <!-- Singnup_login -->
+                  <span class="method-name">Singnup_login</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;submit&quot; data-qa=&quot;create-account&quot; class=&quot;btn btn-default&quot;&gt;...&lt;/button&gt; is not clickable at point (359, 638). Other element would receive the click: &lt;div id=&quot;aswift_6_host&quot; style=&quot;border: none !important; height: 90px !important; width: 100% !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=128.0.6613.119)
+Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fff5a94fc74aa0369d654468268632c9, clickElement {id=f.FDB1CBF557C11A435820DF8368D68D7B.d.7C98F301FE7DFF3E0388C96078D761AD.e.114}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62041/devtoo..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fff5a94fc74aa0369d654468268632c9)] -&gt; xpath: //button[normalize-space()=&apos;Create Account&apos;]]
+Session ID: fff5a94fc74aa0369d654468268632c9
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.click(Unknown Source)
+	at com.mystore.pageobject.LoginAccountCreation.clickSubmit(LoginAccountCreation.java:104)
+	at com.mystore.testcases.TC01_LoginPage.Singnup_login(TC01_LoginPage.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationTextExcercise-class-failed -->
           <div class="suite-AutomationTextExcercise-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -189,21 +243,6 @@
                   <a name="ScrollHomePageUP">
                   </a> <!-- ScrollHomePageUP -->
                   <span class="method-name">ScrollHomePageUP</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-AutomationTextExcercise-class-passed -->
-          <div class="suite-AutomationTextExcercise-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.mystore.testcases.TC01_LoginPage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Singnup_login">
-                  </a> <!-- Singnup_login -->
-                  <span class="method-name">Singnup_login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -276,18 +315,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyCorrectLogin(sanjay664@gmail.com, sanjay, sanjay kumar)">
-                  </a> <!-- verifyCorrectLogin(sanjay664@gmail.com, sanjay, sanjay kumar) -->
-                  <span class="method-name">verifyCorrectLogin</span>
-                  <span class="parameters">(sanjay664@gmail.com,sanjay,sanjay kumar)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifyCorrectLogin(sanjay663@gmail.com, sanjay, sanjay kumar)">
                   </a> <!-- verifyCorrectLogin(sanjay663@gmail.com, sanjay, sanjay kumar) -->
                   <span class="method-name">verifyCorrectLogin</span>
                   <span class="parameters">(sanjay663@gmail.com,sanjay,sanjay kumar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCorrectLogin(sanjay664@gmail.com, sanjay, sanjay kumar)">
+                  </a> <!-- verifyCorrectLogin(sanjay664@gmail.com, sanjay, sanjay kumar) -->
+                  <span class="method-name">verifyCorrectLogin</span>
+                  <span class="parameters">(sanjay664@gmail.com,sanjay,sanjay kumar)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -303,6 +342,21 @@
                   <a name="verifyCorrectLogin">
                   </a> <!-- verifyCorrectLogin -->
                   <span class="method-name">verifyCorrectLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationTextExcercise-class-passed -->
+          <div class="suite-AutomationTextExcercise-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.mystore.testcases.TC08_Contact_Us</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactPage">
+                  </a> <!-- contactPage -->
+                  <span class="method-name">contactPage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -331,6 +385,7 @@
       &lt;class name=&quot;com.mystore.testcases.TC05_AddProductNoLogin&quot;/&gt;
       &lt;class name=&quot;com.mystore.testcases.TC06_ScrollPageHome&quot;/&gt;
       &lt;class name=&quot;com.mystore.testcases.TC07_ScrollPageUP&quot;/&gt;
+      &lt;class name=&quot;com.mystore.testcases.TC08_Contact_Us&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- AutomationTextExcercise --&gt;
@@ -344,7 +399,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (9 classes)</span>
+                <span class="test-name">Test (10 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -382,47 +437,51 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'productAddToCartAndPayment')
 data.setCell(0, 2, 'com.mystore.testcases.TC04_AddProductCart')
-data.setCell(0, 3, 23680);
+data.setCell(0, 3, 25132);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addProductWithoutLogin')
 data.setCell(1, 2, 'com.mystore.testcases.TC05_AddProductNoLogin')
-data.setCell(1, 3, 12197);
+data.setCell(1, 3, 12212);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'Singnup_login')
 data.setCell(2, 2, 'com.mystore.testcases.TC01_LoginPage')
-data.setCell(2, 3, 10807);
+data.setCell(2, 3, 12019);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'ScrollHomePage')
-data.setCell(3, 2, 'com.mystore.testcases.TC06_ScrollPageHome')
-data.setCell(3, 3, 8189);
+data.setCell(3, 1, 'contactPage')
+data.setCell(3, 2, 'com.mystore.testcases.TC08_Contact_Us')
+data.setCell(3, 3, 11265);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'ScrollHomePageUP')
-data.setCell(4, 2, 'com.mystore.testcases.TC07_ScrollPageUP')
-data.setCell(4, 3, 8158);
+data.setCell(4, 1, 'ScrollHomePage')
+data.setCell(4, 2, 'com.mystore.testcases.TC06_ScrollPageHome')
+data.setCell(4, 3, 8203);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'productSearchPage')
-data.setCell(5, 2, 'com.mystore.testcases.TC03_ProductPage')
-data.setCell(5, 3, 7640);
+data.setCell(5, 1, 'ScrollHomePageUP')
+data.setCell(5, 2, 'com.mystore.testcases.TC07_ScrollPageUP')
+data.setCell(5, 3, 8118);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'verifyCorrectLogin')
 data.setCell(6, 2, 'com.mystore.testcases.TC02_LoginPage_DataDriven')
-data.setCell(6, 3, 6164);
+data.setCell(6, 3, 8107);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyCorrectLogin')
-data.setCell(7, 2, 'com.mystore.testcases.TC0101_LoginPage_ValidLogin')
-data.setCell(7, 3, 5327);
+data.setCell(7, 1, 'productSearchPage')
+data.setCell(7, 2, 'com.mystore.testcases.TC03_ProductPage')
+data.setCell(7, 3, 7902);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'verifyCorrectLogin')
 data.setCell(8, 2, 'com.mystore.testcases.TC02_LoginPage_DataDriven')
-data.setCell(8, 3, 5288);
+data.setCell(8, 3, 6968);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyInvalidEmailLogin')
-data.setCell(9, 2, 'com.mystore.testcases.TC0102_LoginPage_InvalidLogin')
-data.setCell(9, 3, 3847);
+data.setCell(9, 1, 'verifyCorrectLogin')
+data.setCell(9, 2, 'com.mystore.testcases.TC0101_LoginPage_ValidLogin')
+data.setCell(9, 3, 4322);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyInvalidEmailLogin')
+data.setCell(10, 2, 'com.mystore.testcases.TC0102_LoginPage_InvalidLogin')
+data.setCell(10, 3, 2833);
 window.suiteTableData['AutomationTextExcercise']= { tableData: data, tableDiv: 'times-div-AutomationTextExcercise'}
 return data;
 }
@@ -459,144 +518,161 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Singnup_login</span>
-                <span class="method-start">6121 ms</span>
+                <span class="method-start">5033 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16950 ms</span>
+                <span class="method-start">17085 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mystore.testcases.TC0101_LoginPage_ValidLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">17282 ms</span>
+                <span class="method-start">17392 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCorrectLogin</span>
-                <span class="method-start">21901 ms</span>
+                <span class="method-start">21374 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">27229 ms</span>
+                <span class="method-start">25697 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mystore.testcases.TC0102_LoginPage_InvalidLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">27427 ms</span>
+                <span class="method-start">25935 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyInvalidEmailLogin</span>
-                <span class="method-start">32386 ms</span>
+                <span class="method-start">29975 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">36240 ms</span>
+                <span class="method-start">32809 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mystore.testcases.TC02_LoginPage_DataDriven</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">37124 ms</span>
+                <span class="method-start">33667 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCorrectLogin(sanjay663@gmail.com, sanjay, sanjay kumar)</span>
-                <span class="method-start">40470 ms</span>
+                <span class="method-start">42567 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">46635 ms</span>
+                <span class="method-start">50675 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">46858 ms</span>
+                <span class="method-start">50884 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyCorrectLogin(sanjay664@gmail.com, sanjay, sanjay kumar)</span>
-                <span class="method-start">51948 ms</span>
+                <span class="method-start">56084 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">57237 ms</span>
+                <span class="method-start">63054 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mystore.testcases.TC03_ProductPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">57442 ms</span>
+                <span class="method-start">63331 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">productSearchPage</span>
-                <span class="method-start">61417 ms</span>
+                <span class="method-start">68487 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">69058 ms</span>
+                <span class="method-start">76391 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mystore.testcases.TC04_AddProductCart</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">69263 ms</span>
+                <span class="method-start">76634 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">productAddToCartAndPayment</span>
-                <span class="method-start">73061 ms</span>
+                <span class="method-start">81462 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">96742 ms</span>
+                <span class="method-start">106595 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mystore.testcases.TC05_AddProductNoLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">96990 ms</span>
+                <span class="method-start">106920 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addProductWithoutLogin</span>
-                <span class="method-start">100833 ms</span>
+                <span class="method-start">111116 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">113034 ms</span>
+                <span class="method-start">123330 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mystore.testcases.TC06_ScrollPageHome</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">113264 ms</span>
+                <span class="method-start">123625 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ScrollHomePage</span>
-                <span class="method-start">117013 ms</span>
+                <span class="method-start">127668 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">125204 ms</span>
+                <span class="method-start">135872 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.mystore.testcases.TC07_ScrollPageUP</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">125404 ms</span>
+                <span class="method-start">136123 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ScrollHomePageUP</span>
-                <span class="method-start">129402 ms</span>
+                <span class="method-start">140111 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">137561 ms</span>
+                <span class="method-start">148229 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.mystore.testcases.TC08_Contact_Us</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">148514 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactPage</span>
+                <span class="method-start">153515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">164780 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

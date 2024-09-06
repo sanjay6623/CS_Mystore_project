@@ -16,6 +16,7 @@
       <class name="com.mystore.testcases.TC05_AddProductNoLogin"/>
       <class name="com.mystore.testcases.TC06_ScrollPageHome"/>
       <class name="com.mystore.testcases.TC07_ScrollPageUP"/>
+      <class name="com.mystore.testcases.TC08_Contact_Us"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
