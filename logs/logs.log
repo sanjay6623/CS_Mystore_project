@@ -145,3 +145,150 @@
 2024-09-06 16:21:40.566 [main] INFO  - Verify login with correct credential is passed: 
 2024-09-06 16:21:44.232 [main] INFO  - File upload sucessfully:  Success! Your details have been submitted successfully.
 2024-09-06 16:21:48.245 [main] INFO  - Browser closed:  
+2024-09-06 16:28:27.589 [main] INFO  - Url opened
+2024-09-06 16:28:29.283 [main] INFO  - Click on singup/login button
+2024-09-06 16:28:29.307 [main] INFO  - Get the title of homepage: 
+2024-09-06 16:28:31.506 [main] INFO  - Random email generator started:  
+2024-09-06 16:28:31.507 [main] INFO  - Random email given to user filed:  
+2024-09-06 16:28:33.567 [main] INFO  - Account information enttring started: 
+2024-09-06 16:28:33.800 [main] INFO  - Date of birth entring started: 
+2024-09-06 16:28:37.690 [main] INFO  - submisstion button clicked: 
+2024-09-06 16:28:37.761 [main] INFO  - Browser closed:  
+2024-09-06 16:28:45.138 [main] INFO  - Url opened
+2024-09-06 16:28:48.164 [main] INFO  - Click on singup/login button
+2024-09-06 16:28:48.176 [main] INFO  - Get the title of homepage: 
+2024-09-06 16:28:48.177 [main] INFO  - Enter into signup page for login
+2024-09-06 16:28:48.213 [main] INFO  - Login for registred user visible:  
+2024-09-06 16:28:48.423 [main] INFO  - Entring email id done:  
+2024-09-06 16:28:51.061 [main] INFO  - click on login for registed user:  
+2024-09-06 16:28:51.105 [main] INFO  - Verify login with correct credential is passed: 
+2024-09-06 16:28:51.105 [main] INFO  - Verifiy correct loging *****************************TC01***************** Test Case end
+2024-09-06 16:28:51.109 [main] INFO  - Browser closed:  
+2024-09-06 16:28:57.349 [main] INFO  - Url opened
+2024-09-06 16:28:58.880 [main] INFO  - Click on singup/login button
+2024-09-06 16:28:58.893 [main] INFO  - Get the title of homepage: 
+2024-09-06 16:28:58.893 [main] INFO  - Enter into signup page for login
+2024-09-06 16:28:58.927 [main] INFO  - Login for registred user visible:  
+2024-09-06 16:28:59.093 [main] INFO  - Entring email id done:  
+2024-09-06 16:29:00.738 [main] INFO  - click on login for incorrect Email user:  
+2024-09-06 16:29:00.778 [main] INFO  - Incorrect email login passed:  Your email or password is incorrect!
+2024-09-06 16:29:00.778 [main] INFO  - Verifiy  invalid loging *****************************TC01***************** Test Case end
+2024-09-06 16:29:00.786 [main] INFO  - Browser closed:  
+2024-09-06 16:29:01.597 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-06 16:29:01.611 [main] DEBUG - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-09-06 16:29:01.611 [main] DEBUG - Parsing relationship: /_rels/.rels
+2024-09-06 16:29:02.761 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-06 16:29:02.761 [main] DEBUG - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-09-06 16:29:02.761 [main] DEBUG - Parsing relationship: /_rels/.rels
+2024-09-06 16:29:02.827 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-06 16:29:02.839 [main] DEBUG - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-09-06 16:29:02.839 [main] DEBUG - Parsing relationship: /_rels/.rels
+2024-09-06 16:29:02.922 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-06 16:29:02.924 [main] DEBUG - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-09-06 16:29:02.927 [main] DEBUG - Parsing relationship: /_rels/.rels
+2024-09-06 16:29:02.977 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-06 16:29:02.988 [main] DEBUG - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-09-06 16:29:02.988 [main] DEBUG - Parsing relationship: /_rels/.rels
+2024-09-06 16:29:03.027 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-06 16:29:03.027 [main] DEBUG - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-09-06 16:29:03.041 [main] DEBUG - Parsing relationship: /_rels/.rels
+2024-09-06 16:29:03.077 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-06 16:29:03.089 [main] DEBUG - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-09-06 16:29:03.089 [main] DEBUG - Parsing relationship: /_rels/.rels
+2024-09-06 16:29:03.132 [main] DEBUG - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-06 16:29:03.132 [main] DEBUG - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2024-09-06 16:29:03.144 [main] DEBUG - Parsing relationship: /_rels/.rels
+2024-09-06 16:29:08.188 [main] INFO  - Url opened
+2024-09-06 16:29:10.879 [main] INFO  - Click on singup/login button
+2024-09-06 16:29:10.893 [main] INFO  - Get the title of homepage: 
+2024-09-06 16:29:10.893 [main] INFO  - Enter into signup page for login
+2024-09-06 16:29:10.911 [main] INFO  - Login for registred user visible:  
+2024-09-06 16:29:11.101 [main] INFO  - Entring email id done:  
+2024-09-06 16:29:13.638 [main] INFO  - click on login for registed user:  
+2024-09-06 16:29:13.712 [main] INFO  - User Registration name     sanjay kumar
+2024-09-06 16:29:13.762 [main] INFO  - Verify login with correct credential is passed: 
+2024-09-06 16:29:15.427 [main] INFO  - User has been logout:   
+2024-09-06 16:29:15.477 [main] INFO  - Correct credintial login data driver *****************************TC02***************** Test Case end
+2024-09-06 16:29:15.477 [main] INFO  - Browser closed:  
+2024-09-06 16:29:21.484 [main] INFO  - Url opened
+2024-09-06 16:29:22.717 [main] INFO  - Click on singup/login button
+2024-09-06 16:29:22.733 [main] INFO  - Get the title of homepage: 
+2024-09-06 16:29:22.733 [main] INFO  - Enter into signup page for login
+2024-09-06 16:29:22.781 [main] INFO  - Login for registred user visible:  
+2024-09-06 16:29:23.038 [main] INFO  - Entring email id done:  
+2024-09-06 16:29:25.052 [main] INFO  - click on login for registed user:  
+2024-09-06 16:29:25.160 [main] INFO  - User Registration name     sanjay kumar
+2024-09-06 16:29:25.197 [main] INFO  - Verify login with correct credential is passed: 
+2024-09-06 16:29:26.736 [main] INFO  - User has been logout:   
+2024-09-06 16:29:26.763 [main] INFO  - Correct credintial login data driver *****************************TC02***************** Test Case end
+2024-09-06 16:29:26.763 [main] INFO  - Browser closed:  
+2024-09-06 16:29:31.759 [main] INFO  - Url opened
+2024-09-06 16:29:33.091 [main] INFO  - Click on singup/login button
+2024-09-06 16:29:33.134 [main] INFO  - Get the title of homepage: 
+2024-09-06 16:29:33.134 [main] INFO  - Enter into signup page for login
+2024-09-06 16:29:33.219 [main] INFO  - Login for registred user visible:  
+2024-09-06 16:29:33.361 [main] INFO  - Entring email id done:  
+2024-09-06 16:29:36.164 [main] INFO  - click on login for registed user:  
+2024-09-06 16:29:36.213 [main] INFO  - User Registration name     sanjay kumar
+2024-09-06 16:29:36.245 [main] INFO  - Verify login with correct credential is passed: 
+2024-09-06 16:29:38.304 [main] INFO  - Click on Product 
+2024-09-06 16:29:38.304 [main] INFO  - Entering into product search page: 
+2024-09-06 16:29:38.578 [main] INFO  - click on search product and enter TShirt
+2024-09-06 16:29:40.928 [main] INFO  - Enter into serch result of Tshirt:  
+2024-09-06 16:29:40.944 [main] INFO  - Java Script entring to scroll page to locate element:   
+2024-09-06 16:29:41.034 [main] INFO  - Comparing result and checking for correct product: 
+2024-09-06 16:29:42.940 [main] INFO  - User has been logout sucessfully:   
+2024-09-06 16:29:42.981 [main] INFO  - Product Search page *****************************TC03***************** Test Case end
+2024-09-06 16:29:42.981 [main] INFO  - Browser closed:  
+2024-09-06 16:29:49.097 [main] INFO  - Url opened
+2024-09-06 16:29:50.404 [main] INFO  - Click on singup/login button
+2024-09-06 16:29:50.418 [main] INFO  - Get the title of homepage: 
+2024-09-06 16:29:50.418 [main] INFO  - Enter into signup page for login
+2024-09-06 16:29:50.460 [main] INFO  - Login for registred user visible:  
+2024-09-06 16:29:50.715 [main] INFO  - Entring email id done:  
+2024-09-06 16:29:52.598 [main] INFO  - click on login for registed user:  
+2024-09-06 16:29:54.044 [main] INFO  - Click on Product 
+2024-09-06 16:29:54.044 [main] INFO  - Entering into product search page: 
+2024-09-06 16:29:54.278 [main] INFO  - click on search product and enter TShirt
+2024-09-06 16:29:56.086 [main] INFO  - Enter into serch result of Tshirt:  
+2024-09-06 16:29:56.103 [main] INFO  - Java Script entring to scroll page to locate element:   
+2024-09-06 16:29:56.942 [main] INFO  - Enter into View product details:   
+2024-09-06 16:29:56.983 [main] INFO  - product detail page title: Automation Exercise - Product Details
+2024-09-06 16:29:57.445 [main] INFO  - product added into cart...
+2024-09-06 16:30:03.505 [main] INFO  - checkout page title:  Automation Exercise - Checkout
+2024-09-06 16:30:03.659 [main] INFO  - Address confirmation done:  
+2024-09-06 16:30:10.593 [main] INFO  - Payment done Text confirmation:  Congratulations! Your order has been confirmed!
+2024-09-06 16:30:12.483 [main] INFO  - Payment Done:  
+2024-09-06 16:30:14.027 [main] INFO  - User Logout and lend to Loging page again:  
+2024-09-06 16:30:14.027 [main] INFO  - After payment loging visible:  
+2024-09-06 16:30:14.027 [main] INFO  - Add to card product and Payment *****************************TC04***************** Test Case end
+2024-09-06 16:30:14.029 [main] INFO  - Browser closed:  
+2024-09-06 16:30:20.830 [main] INFO  - Url opened
+2024-09-06 16:30:23.376 [main] INFO  - Click on Product 
+2024-09-06 16:30:23.381 [main] INFO  - Entering into product search page: 
+2024-09-06 16:30:23.533 [main] INFO  - click on search product and enter TShirt
+2024-09-06 16:30:24.690 [main] INFO  - Enter into serch result of Tshirt:  
+2024-09-06 16:30:26.721 [main] INFO  - Java Script entring to scroll page to locate element:   
+2024-09-06 16:30:34.839 [main] INFO  - Checkout Error message Register / Login account to proceed on checkout.
+2024-09-06 16:30:34.845 [main] INFO  - Browser closed:  
+2024-09-06 16:30:41.431 [main] INFO  - Url opened
+2024-09-06 16:30:41.443 [main] INFO  - Title of home page : Automation Exercise
+2024-09-06 16:30:41.473 [main] INFO  - Scrolling page to down and visble
+2024-09-06 16:30:41.564 [main] INFO  - subscription text matched:    SUBSCRIPTION
+2024-09-06 16:30:45.716 [main] INFO  - homepage text visble and text case pass: Full-Fledged practice website for Automation Engineers
+2024-09-06 16:30:49.731 [main] INFO  - Browser closed:  
+2024-09-06 16:30:56.291 [main] INFO  - Url opened
+2024-09-06 16:30:56.296 [main] INFO  - Title of home page : Automation Exercise
+2024-09-06 16:30:56.312 [main] INFO  - Scrolling page to down and visble
+2024-09-06 16:30:56.374 [main] INFO  - subscription text matched:    SUBSCRIPTION
+2024-09-06 16:31:00.443 [main] INFO  - homepage text visble and text case pass: Full-Fledged practice website for Automation Engineers
+2024-09-06 16:31:04.453 [main] INFO  - Browser closed:  
+2024-09-06 16:31:09.937 [main] INFO  - Url opened
+2024-09-06 16:31:11.641 [main] INFO  - Click on singup/login button
+2024-09-06 16:31:11.657 [main] INFO  - Get the title of homepage: 
+2024-09-06 16:31:11.657 [main] INFO  - Enter into signup page for login
+2024-09-06 16:31:11.692 [main] INFO  - Login for registred user visible:  
+2024-09-06 16:31:11.904 [main] INFO  - Entring email id done:  
+2024-09-06 16:31:14.226 [main] INFO  - click on login for registed user:  
+2024-09-06 16:31:14.258 [main] INFO  - Verify login with correct credential is passed: 
+2024-09-06 16:31:19.138 [main] INFO  - Browser closed:  

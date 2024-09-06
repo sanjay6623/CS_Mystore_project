@@ -51,7 +51,7 @@ public class BaseClass {
 	        prefs.put("profile.default_content_setting_values.popups", 2); // Disable pop-ups
 	        options.setExperimentalOption("prefs", prefs);
 	        
-	     //  options.addArguments("--headless");
+	      options.addArguments("--headless");
 	      driver = new ChromeDriver(options);
 			
 		
