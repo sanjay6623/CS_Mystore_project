@@ -19,8 +19,10 @@ public class HomePage {
 	
 	@FindBy(css="a[href='/login']") 
 	WebElement Signup ;
+	@FindBy(xpath="//i[@class='fa fa-angle-up']") WebElement pageScroll;
 	
-	
+	@FindBy(xpath="//h2[normalize-space()='Subscription']") WebElement scuription;
+	@FindBy(xpath="//div[@class='item active']//h2[contains(text(),'Full-Fledged practice website for Automation Engin')]") WebElement textVisible;
 	
 	
 	public void clickOnLogin() {
@@ -34,6 +36,20 @@ public class HomePage {
 		return title;
 		
 	}
+	public void scrollup() {
+		
+		pageScroll.click();
+	}
+	
+	public String subscriptionVisble() {
+		
+		return scuription.getText();
+	}
+	public String HomePageText() {
+		
+		return textVisible.getText();	
+		
+		}
 	
 	
 	

@@ -19,7 +19,7 @@ public class TC02_LoginPage_DataDriven extends BaseClass {
 
 	
 
-	@Test(dataProvider = "LoginDataProvider")
+	@Test(dataProvider = "LoginDataProvider", priority=4)
 	
 	public void verifyCorrectLogin(String userEmail, String userPassword, String expectedUserName) throws IOException {
 		HomePage homepage= new HomePage(driver);

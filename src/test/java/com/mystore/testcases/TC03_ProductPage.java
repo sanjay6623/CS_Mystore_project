@@ -15,7 +15,7 @@ import com.mystore.pageobject.SignupPage;
 public class TC03_ProductPage extends BaseClass {
 	
 	
-	@Test
+	@Test(priority=5)
 	public void productSearchPage() throws IOException, InterruptedException {
 		HomePage homepage= new HomePage(driver);
 

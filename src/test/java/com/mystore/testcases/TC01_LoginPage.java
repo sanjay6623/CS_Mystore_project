@@ -15,7 +15,7 @@ import com.mystore.utilities.RandomEmailGenerator;
 
 public class TC01_LoginPage extends BaseClass {
 
-	@Test (enabled=true)
+	@Test (enabled=true,priority=1)
 	public void Singnup_login() throws InterruptedException 
 	{
 

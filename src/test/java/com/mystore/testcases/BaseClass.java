@@ -3,6 +3,8 @@ package com.mystore.testcases;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 
 import org.apache.commons.io.FileUtils;
@@ -12,6 +14,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -28,6 +31,7 @@ public class BaseClass {
 	ReadConfig readConfig=new ReadConfig();
 	String url=readConfig.getBaseUrl();
 	String browser=readConfig.getBrowser();
+	ChromeOptions options;
 
 	public static WebDriver driver;
 	public static Logger logger;
@@ -37,7 +41,17 @@ public class BaseClass {
 
 		if(browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup(); 
-			driver=new ChromeDriver();
+			options = new ChromeOptions();
+	        //options.addArguments("--disable-popup-blocking");
+	       // options.addArguments("--disable-notifications");
+	        Map<String, Object> prefs = new HashMap<>();
+	        prefs.put("profile.default_content_setting_values.notifications", 2); // Disable notifications
+	        prefs.put("profile.default_content_setting_values.popups", 2); // Disable pop-ups
+	        options.setExperimentalOption("prefs", prefs);
+	        
+	       options.addArguments("--headless");
+	      driver = new ChromeDriver(options);
+			
 		
 			
 		}
@@ -87,6 +101,7 @@ public class BaseClass {
 		logger=LogManager.getLogger(BaseClass.class);
 		
 		//open url
+		
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
@@ -98,7 +113,7 @@ public class BaseClass {
 	}
 	@AfterMethod(groups="SmokeTest")
 	public void tearDown() {
-
+		logger.info("Browser closed:  ");
 		driver.close();
 		driver.quit();
 	}

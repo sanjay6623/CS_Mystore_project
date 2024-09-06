@@ -6,48 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.mystore.testcases.TC0102_LoginPage_InvalidLogin">
+      <class name="com.mystore.testcases.TC01_LoginPage">
         <methods>
+          <include name="Singnup_login"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="verifyInvalidEmailLogin"/>
         </methods>
-      </class> <!-- com.mystore.testcases.TC0102_LoginPage_InvalidLogin -->
-      <class name="com.mystore.testcases.TC0101_LoginPage_ValidLogin">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verifyCorrectLogin"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.TC0101_LoginPage_ValidLogin -->
-      <class name="com.mystore.testcases.TC03_ProductPage">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="productSearchPage"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.TC03_ProductPage -->
-      <class name="com.mystore.testcases.TC05_AddProductNoLogin">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="addProductWithoutLogin"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.TC05_AddProductNoLogin -->
-      <class name="com.mystore.testcases.TC04_AddProductCart">
-        <methods>
-          <include name="tearDown"/>
-          <include name="productAddToCartAndPayment"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.TC04_AddProductCart -->
-      <class name="com.mystore.testcases.TC02_LoginPage_DataDriven">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verifyCorrectLogin" invocation-numbers="0 1"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.TC02_LoginPage_DataDriven -->
+      </class> <!-- com.mystore.testcases.TC01_LoginPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

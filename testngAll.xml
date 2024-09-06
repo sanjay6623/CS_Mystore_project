@@ -9,11 +9,12 @@
     <classes>
       <class name="com.mystore.testcases.TC01_LoginPage"/>
        <class name="com.mystore.testcases.TC0101_LoginPage_ValidLogin"/>
-        <class name="com.mystore.testcases.TC0102_LoginPage_InvalidLogin"/>
+       <class name="com.mystore.testcases.TC0102_LoginPage_InvalidLogin"/>
       <class name="com.mystore.testcases.TC02_LoginPage_DataDriven"/>
       <class name="com.mystore.testcases.TC03_ProductPage"/>
       <class name="com.mystore.testcases.TC04_AddProductCart"/>
       <class name="com.mystore.testcases.TC05_AddProductNoLogin"/>
+      <class name="com.mystore.testcases.TC06_ScrollPageHome"/>
       
     </classes>
   </test> <!-- Test -->

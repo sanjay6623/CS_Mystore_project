@@ -20,7 +20,7 @@ import com.mystore.pageobject.SignupPage;
 public class TC04_AddProductCart extends BaseClass {
 
 
-	@Test
+	@Test(priority=6)
 	public void productAddToCartAndPayment() throws IOException, InterruptedException {
 		HomePage homepage= new HomePage(driver);
 		homepage.clickOnLogin();

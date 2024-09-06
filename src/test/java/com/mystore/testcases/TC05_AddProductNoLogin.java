@@ -14,7 +14,7 @@ import com.mystore.pageobject.SearchResultPage;
 
 public class TC05_AddProductNoLogin extends BaseClass {
 	
-	@Test
+	@Test(priority=7)
 	public void addProductWithoutLogin() throws InterruptedException {
 	RegisteredUser registeruser= new RegisteredUser(driver);
 	registeruser.clickOnProduct();

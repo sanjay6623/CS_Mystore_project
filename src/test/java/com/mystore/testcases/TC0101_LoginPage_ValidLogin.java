@@ -11,7 +11,7 @@ import com.mystore.pageobject.SignupPage;
 
 public class TC0101_LoginPage_ValidLogin extends BaseClass {
 	
-	@Test(groups="SmokeTest")
+	@Test(groups="SmokeTest", priority=2)
 	public void verifyCorrectLogin() throws IOException {
 		HomePage homepage= new HomePage(driver);
 

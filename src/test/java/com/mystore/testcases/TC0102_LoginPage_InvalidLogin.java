@@ -12,7 +12,7 @@ import com.mystore.pageobject.SignupPage;
 public class TC0102_LoginPage_InvalidLogin extends BaseClass {
 	
 
-	@Test(groups="SmokeTest")
+	@Test(groups="SmokeTest",priority=3)
 	public void verifyInvalidEmailLogin() throws IOException {
 		HomePage homepage= new HomePage(driver);
 
