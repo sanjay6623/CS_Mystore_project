@@ -18,6 +18,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.*;
 
@@ -35,6 +36,7 @@ public class BaseClass {
 
 	public static WebDriver driver;
 	public static Logger logger;
+	
 
 	@BeforeMethod(groups="SmokeTest")
 	public void setup() {
@@ -106,6 +108,7 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		logger.info("Url opened");
+		
 
 
 
@@ -114,7 +117,7 @@ public class BaseClass {
 	@AfterMethod(groups="SmokeTest")
 	public void tearDown() {
 		logger.info("Browser closed:  ");
-		driver.close();
+		//driver.close();
 		driver.quit();
 	}
 	// Screenshot Capture method created in baseClass

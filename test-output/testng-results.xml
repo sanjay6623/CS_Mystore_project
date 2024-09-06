@@ -1,119 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-06T11:44:42 IST" name="Suite" finished-at="2024-09-06T11:46:57 IST" duration-ms="134513">
+  <suite started-at="2024-09-06T13:08:00 IST" name="AutomationTextExcercise" finished-at="2024-09-06T13:10:18 IST" duration-ms="137978">
     <groups>
       <group name="SmokeTest">
-        <method signature="TC0101_LoginPage_ValidLogin.verifyCorrectLogin()[pri:2, instance:com.mystore.testcases.TC0101_LoginPage_ValidLogin@7ae0a9ec]" name="verifyCorrectLogin" class="com.mystore.testcases.TC0101_LoginPage_ValidLogin"/>
-        <method signature="TC0102_LoginPage_InvalidLogin.verifyInvalidEmailLogin()[pri:3, instance:com.mystore.testcases.TC0102_LoginPage_InvalidLogin@35841320]" name="verifyInvalidEmailLogin" class="com.mystore.testcases.TC0102_LoginPage_InvalidLogin"/>
+        <method signature="TC0101_LoginPage_ValidLogin.verifyCorrectLogin()[pri:2, instance:com.mystore.testcases.TC0101_LoginPage_ValidLogin@1040be71]" name="verifyCorrectLogin" class="com.mystore.testcases.TC0101_LoginPage_ValidLogin"/>
+        <method signature="TC0102_LoginPage_InvalidLogin.verifyInvalidEmailLogin()[pri:3, instance:com.mystore.testcases.TC0102_LoginPage_InvalidLogin@548a24a]" name="verifyInvalidEmailLogin" class="com.mystore.testcases.TC0102_LoginPage_InvalidLogin"/>
       </group> <!-- SmokeTest -->
     </groups>
-    <test started-at="2024-09-06T11:44:42 IST" name="Test" finished-at="2024-09-06T11:46:57 IST" duration-ms="134513">
+    <test started-at="2024-09-06T13:08:00 IST" name="Test" finished-at="2024-09-06T13:10:18 IST" duration-ms="137978">
       <class name="com.mystore.testcases.TC03_ProductPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC03_ProductPage@6f10d5b6]" started-at="2024-09-06T11:45:39 IST" name="setup" finished-at="2024-09-06T11:45:43 IST" duration-ms="4087" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC03_ProductPage@2a693f59]" started-at="2024-09-06T13:08:58 IST" name="setup" finished-at="2024-09-06T13:09:02 IST" duration-ms="3975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="productSearchPage()[pri:5, instance:com.mystore.testcases.TC03_ProductPage@6f10d5b6]" started-at="2024-09-06T11:45:43 IST" name="productSearchPage" finished-at="2024-09-06T11:45:56 IST" duration-ms="12143" status="PASS">
+        <test-method signature="productSearchPage()[pri:5, instance:com.mystore.testcases.TC03_ProductPage@2a693f59]" started-at="2024-09-06T13:09:02 IST" name="productSearchPage" finished-at="2024-09-06T13:09:09 IST" duration-ms="7640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productSearchPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC03_ProductPage@6f10d5b6]" started-at="2024-09-06T11:45:56 IST" name="tearDown" finished-at="2024-09-06T11:45:56 IST" duration-ms="255" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC03_ProductPage@2a693f59]" started-at="2024-09-06T13:09:09 IST" name="tearDown" finished-at="2024-09-06T13:09:09 IST" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.TC03_ProductPage -->
       <class name="com.mystore.testcases.TC05_AddProductNoLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC05_AddProductNoLogin@548a24a]" started-at="2024-09-06T11:46:27 IST" name="setup" finished-at="2024-09-06T11:46:31 IST" duration-ms="3671" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC05_AddProductNoLogin@7fd50002]" started-at="2024-09-06T13:09:37 IST" name="setup" finished-at="2024-09-06T13:09:41 IST" duration-ms="3842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addProductWithoutLogin()[pri:7, instance:com.mystore.testcases.TC05_AddProductNoLogin@548a24a]" started-at="2024-09-06T11:46:31 IST" name="addProductWithoutLogin" finished-at="2024-09-06T11:46:43 IST" duration-ms="11789" status="PASS">
+        <test-method signature="addProductWithoutLogin()[pri:7, instance:com.mystore.testcases.TC05_AddProductNoLogin@7fd50002]" started-at="2024-09-06T13:09:41 IST" name="addProductWithoutLogin" finished-at="2024-09-06T13:09:53 IST" duration-ms="12197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductWithoutLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC05_AddProductNoLogin@548a24a]" started-at="2024-09-06T11:46:43 IST" name="tearDown" finished-at="2024-09-06T11:46:43 IST" duration-ms="285" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC05_AddProductNoLogin@7fd50002]" started-at="2024-09-06T13:09:53 IST" name="tearDown" finished-at="2024-09-06T13:09:53 IST" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.TC05_AddProductNoLogin -->
       <class name="com.mystore.testcases.TC0101_LoginPage_ValidLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC0101_LoginPage_ValidLogin@7ae0a9ec]" started-at="2024-09-06T11:45:01 IST" name="setup" finished-at="2024-09-06T11:45:05 IST" duration-ms="3755" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC0101_LoginPage_ValidLogin@1040be71]" started-at="2024-09-06T13:08:17 IST" name="setup" finished-at="2024-09-06T13:08:22 IST" duration-ms="4619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCorrectLogin()[pri:2, instance:com.mystore.testcases.TC0101_LoginPage_ValidLogin@7ae0a9ec]" started-at="2024-09-06T11:45:05 IST" name="verifyCorrectLogin" finished-at="2024-09-06T11:45:09 IST" duration-ms="4017" status="PASS">
+        <test-method signature="verifyCorrectLogin()[pri:2, instance:com.mystore.testcases.TC0101_LoginPage_ValidLogin@1040be71]" started-at="2024-09-06T13:08:22 IST" name="verifyCorrectLogin" finished-at="2024-09-06T13:08:27 IST" duration-ms="5327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCorrectLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC0101_LoginPage_ValidLogin@7ae0a9ec]" started-at="2024-09-06T11:45:09 IST" name="tearDown" finished-at="2024-09-06T11:45:09 IST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC0101_LoginPage_ValidLogin@1040be71]" started-at="2024-09-06T13:08:27 IST" name="tearDown" finished-at="2024-09-06T13:08:28 IST" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.TC0101_LoginPage_ValidLogin -->
       <class name="com.mystore.testcases.TC04_AddProductCart">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC04_AddProductCart@1040be71]" started-at="2024-09-06T11:45:56 IST" name="setup" finished-at="2024-09-06T11:46:00 IST" duration-ms="3750" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC04_AddProductCart@3f4faf53]" started-at="2024-09-06T13:09:09 IST" name="setup" finished-at="2024-09-06T13:09:13 IST" duration-ms="3798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="productAddToCartAndPayment()[pri:6, instance:com.mystore.testcases.TC04_AddProductCart@1040be71]" started-at="2024-09-06T11:46:00 IST" name="productAddToCartAndPayment" finished-at="2024-09-06T11:46:27 IST" duration-ms="27512" status="PASS">
+        <test-method signature="productAddToCartAndPayment()[pri:6, instance:com.mystore.testcases.TC04_AddProductCart@3f4faf53]" started-at="2024-09-06T13:09:13 IST" name="productAddToCartAndPayment" finished-at="2024-09-06T13:09:37 IST" duration-ms="23680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productAddToCartAndPayment -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC04_AddProductCart@1040be71]" started-at="2024-09-06T11:46:27 IST" name="tearDown" finished-at="2024-09-06T11:46:27 IST" duration-ms="331" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC04_AddProductCart@3f4faf53]" started-at="2024-09-06T13:09:37 IST" name="tearDown" finished-at="2024-09-06T13:09:37 IST" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.TC04_AddProductCart -->
       <class name="com.mystore.testcases.TC06_ScrollPageHome">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC06_ScrollPageHome@433defed]" started-at="2024-09-06T11:46:43 IST" name="setup" finished-at="2024-09-06T11:46:48 IST" duration-ms="4952" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC06_ScrollPageHome@533bda92]" started-at="2024-09-06T13:09:53 IST" name="setup" finished-at="2024-09-06T13:09:57 IST" duration-ms="3749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ScrollHomePage()[pri:0, instance:com.mystore.testcases.TC06_ScrollPageHome@433defed]" started-at="2024-09-06T11:46:48 IST" name="ScrollHomePage" finished-at="2024-09-06T11:46:56 IST" duration-ms="8179" status="PASS">
+        <test-method signature="ScrollHomePage()[pri:0, instance:com.mystore.testcases.TC06_ScrollPageHome@533bda92]" started-at="2024-09-06T13:09:57 IST" name="ScrollHomePage" finished-at="2024-09-06T13:10:05 IST" duration-ms="8189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ScrollHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC06_ScrollPageHome@433defed]" started-at="2024-09-06T11:46:56 IST" name="tearDown" finished-at="2024-09-06T11:46:57 IST" duration-ms="230" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC06_ScrollPageHome@533bda92]" started-at="2024-09-06T13:10:05 IST" name="tearDown" finished-at="2024-09-06T13:10:06 IST" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.TC06_ScrollPageHome -->
-      <class name="com.mystore.testcases.TC0102_LoginPage_InvalidLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC0102_LoginPage_InvalidLogin@35841320]" started-at="2024-09-06T11:45:09 IST" name="setup" finished-at="2024-09-06T11:45:14 IST" duration-ms="5010" status="PASS">
+      <class name="com.mystore.testcases.TC07_ScrollPageUP">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC07_ScrollPageUP@304bb45b]" started-at="2024-09-06T13:10:06 IST" name="setup" finished-at="2024-09-06T13:10:10 IST" duration-ms="3998" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyInvalidEmailLogin()[pri:3, instance:com.mystore.testcases.TC0102_LoginPage_InvalidLogin@35841320]" started-at="2024-09-06T11:45:14 IST" name="verifyInvalidEmailLogin" finished-at="2024-09-06T11:45:17 IST" duration-ms="2708" status="PASS">
+        <test-method signature="ScrollHomePageUP()[pri:0, instance:com.mystore.testcases.TC07_ScrollPageUP@304bb45b]" started-at="2024-09-06T13:10:10 IST" name="ScrollHomePageUP" finished-at="2024-09-06T13:10:18 IST" duration-ms="8158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollHomePageUP -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC07_ScrollPageUP@304bb45b]" started-at="2024-09-06T13:10:18 IST" name="tearDown" finished-at="2024-09-06T13:10:18 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.TC07_ScrollPageUP -->
+      <class name="com.mystore.testcases.TC0102_LoginPage_InvalidLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC0102_LoginPage_InvalidLogin@548a24a]" started-at="2024-09-06T13:08:28 IST" name="setup" finished-at="2024-09-06T13:08:33 IST" duration-ms="4958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInvalidEmailLogin()[pri:3, instance:com.mystore.testcases.TC0102_LoginPage_InvalidLogin@548a24a]" started-at="2024-09-06T13:08:33 IST" name="verifyInvalidEmailLogin" finished-at="2024-09-06T13:08:36 IST" duration-ms="3847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvalidEmailLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC0102_LoginPage_InvalidLogin@35841320]" started-at="2024-09-06T11:45:17 IST" name="tearDown" finished-at="2024-09-06T11:45:17 IST" duration-ms="230" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC0102_LoginPage_InvalidLogin@548a24a]" started-at="2024-09-06T13:08:36 IST" name="tearDown" finished-at="2024-09-06T13:08:37 IST" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.TC0102_LoginPage_InvalidLogin -->
       <class name="com.mystore.testcases.TC01_LoginPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC01_LoginPage@2cb4893b]" started-at="2024-09-06T11:44:42 IST" name="setup" finished-at="2024-09-06T11:44:49 IST" duration-ms="6320" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC01_LoginPage@6caf0677]" started-at="2024-09-06T13:08:00 IST" name="setup" finished-at="2024-09-06T13:08:06 IST" duration-ms="6120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Singnup_login()[pri:1, instance:com.mystore.testcases.TC01_LoginPage@2cb4893b]" started-at="2024-09-06T11:44:49 IST" name="Singnup_login" finished-at="2024-09-06T11:45:01 IST" duration-ms="12358" status="PASS">
+        <test-method signature="Singnup_login()[pri:1, instance:com.mystore.testcases.TC01_LoginPage@6caf0677]" started-at="2024-09-06T13:08:06 IST" name="Singnup_login" finished-at="2024-09-06T13:08:17 IST" duration-ms="10807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Singnup_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC01_LoginPage@2cb4893b]" started-at="2024-09-06T11:45:01 IST" name="tearDown" finished-at="2024-09-06T11:45:01 IST" duration-ms="298" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC01_LoginPage@6caf0677]" started-at="2024-09-06T13:08:17 IST" name="tearDown" finished-at="2024-09-06T13:08:17 IST" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.TC01_LoginPage -->
       <class name="com.mystore.testcases.TC02_LoginPage_DataDriven">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC02_LoginPage_DataDriven@61c4eee0]" started-at="2024-09-06T11:45:18 IST" name="setup" finished-at="2024-09-06T11:45:23 IST" duration-ms="4915" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC02_LoginPage_DataDriven@433defed]" started-at="2024-09-06T13:08:37 IST" name="setup" finished-at="2024-09-06T13:08:41 IST" duration-ms="3345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCorrectLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.mystore.testcases.TC02_LoginPage_DataDriven@61c4eee0]" started-at="2024-09-06T11:45:23 IST" name="verifyCorrectLogin" data-provider="LoginDataProvider" finished-at="2024-09-06T11:45:28 IST" duration-ms="5527" status="PASS">
+        <test-method signature="verifyCorrectLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.mystore.testcases.TC02_LoginPage_DataDriven@433defed]" started-at="2024-09-06T13:08:41 IST" name="verifyCorrectLogin" data-provider="LoginDataProvider" finished-at="2024-09-06T13:08:47 IST" duration-ms="6164" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -134,15 +148,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCorrectLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC02_LoginPage_DataDriven@61c4eee0]" started-at="2024-09-06T11:45:28 IST" name="tearDown" finished-at="2024-09-06T11:45:29 IST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC02_LoginPage_DataDriven@433defed]" started-at="2024-09-06T13:08:47 IST" name="tearDown" finished-at="2024-09-06T13:08:47 IST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC02_LoginPage_DataDriven@61c4eee0]" started-at="2024-09-06T11:45:29 IST" name="setup" finished-at="2024-09-06T11:45:32 IST" duration-ms="3944" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mystore.testcases.TC02_LoginPage_DataDriven@433defed]" started-at="2024-09-06T13:08:47 IST" name="setup" finished-at="2024-09-06T13:08:52 IST" duration-ms="5090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCorrectLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.mystore.testcases.TC02_LoginPage_DataDriven@61c4eee0]" started-at="2024-09-06T11:45:32 IST" name="verifyCorrectLogin" data-provider="LoginDataProvider" finished-at="2024-09-06T11:45:39 IST" duration-ms="6585" status="PASS">
+        <test-method signature="verifyCorrectLogin(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.mystore.testcases.TC02_LoginPage_DataDriven@433defed]" started-at="2024-09-06T13:08:52 IST" name="verifyCorrectLogin" data-provider="LoginDataProvider" finished-at="2024-09-06T13:08:57 IST" duration-ms="5288" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,11 +177,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCorrectLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC02_LoginPage_DataDriven@61c4eee0]" started-at="2024-09-06T11:45:39 IST" name="tearDown" finished-at="2024-09-06T11:45:39 IST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC02_LoginPage_DataDriven@433defed]" started-at="2024-09-06T13:08:57 IST" name="tearDown" finished-at="2024-09-06T13:08:58 IST" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.TC02_LoginPage_DataDriven -->
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+  </suite> <!-- AutomationTextExcercise -->
 </testng-results>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="AutomationTextExcercise">
 
 <listeners>
 <listener class-name="com.mystore.utilities.Extentlistener"></listener>
@@ -15,7 +15,7 @@
       <class name="com.mystore.testcases.TC04_AddProductCart"/>
       <class name="com.mystore.testcases.TC05_AddProductNoLogin"/>
       <class name="com.mystore.testcases.TC06_ScrollPageHome"/>
-      
+      <class name="com.mystore.testcases.TC07_ScrollPageUP"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
